@@ -1,0 +1,8 @@
+// Dependencias necesarias //
+
+
+nom install
+
+npm i axios
+
+npm install react-router-dom
