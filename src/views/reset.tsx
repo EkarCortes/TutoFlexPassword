@@ -80,14 +80,12 @@ const ResetPasswordScreen: React.FC = () => {
               Ingresa tu nueva contraseña para tu cuenta.
             </p>
             <InputField
-              icon="lock"
               placeholder="Nueva Contraseña"
               secureTextEntry
               value={newPassword}
               onChangeText={(val: string) => setNewPassword(val)}
             />
             <InputField
-              icon="lock"
               placeholder="Confirmar Contraseña"
               secureTextEntry
               value={confirmPassword}
